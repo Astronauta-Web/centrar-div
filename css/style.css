@@ -1,0 +1,12 @@
+body{
+    height: 100vh;/*Establecemos la altura total a la ventana del navegador*/
+    display: flex;/*Usamos para poder acceder a flexbox siempre poniendolo en el padre de lo que queremos centrar*/
+    justify-content: center;/*Justify content nos ayuda a centrar elementos horizontalmente*/
+    align-items: center;/*Align items nos ayuda a centrar verticalmente*/
+    overflow: hidden;/*Lo usé para quitar el desborde*/
+
+}
+div{
+    border: 2px blue solid;
+    width: 5rem;
+}
